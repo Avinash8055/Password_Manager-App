@@ -45,6 +45,8 @@ npm run dev
 ## 📲 **Build for Mobile (Android) using Capacitor**  
 If you want to modify the code and create a mobile app, follow these steps:
 
+Open a terminal or command prompt in your project directory
+
 ### 🧪 **1. Install Capacitor CLI**  
 ```bash
 npm install @capacitor/core @capacitor/cli
@@ -64,6 +66,7 @@ npx cap add android
 
 ### 🔄 **4. Sync Changes with Capacitor**  
 ```bash
+npx cap copy
 npx cap sync
 ```
 
