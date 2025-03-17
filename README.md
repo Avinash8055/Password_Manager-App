@@ -50,6 +50,7 @@ Open a terminal or command prompt in your project directory
 ### 🧪 **1. Install Capacitor CLI**  
 ```bash
 npm install @capacitor/core @capacitor/cli
+npm install @capacitor/android 
 ```
 
 ### 🏗️ **2. Initialize Capacitor**  
@@ -64,18 +65,23 @@ npx cap init
 npx cap add android
 ```
 
-### 🔄 **4. Sync Changes with Capacitor**  
+### ⚙️ **4. Build the App**  
+```bash
+npm run build 
+```
+ 
+### 🔄 **5. Sync Changes with Capacitor**  
 ```bash
 npx cap copy
 npx cap sync
 ```
 
-### 🎯 **5. Open in Android Studio**  
+### 🎯 **6. Open in Android Studio**  
 ```bash
 npx cap open android
 ```
 
-### 🚀 **6. Build and Run**  
+### 🚀 **7. Build and Run**  
 
 Build APK
 In Android Studio → `Build > Build Bundle(s) / APK(s) > Build APK(s).`
@@ -90,6 +96,9 @@ android/app/build/outputs/apk/debug/app-debug.apk
 ```bash
 ./gradlew assembleDebug
 ```
+
+
+
 
 
 
